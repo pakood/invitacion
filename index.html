@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+        }
+        .invitation {
+            position: relative;
+            max-width: 600px;
+            width: 100%;
+            background-color: white;
+        }
+        .invitation img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .button {
+            position: absolute;
+            background-color: #ff000000; /* Color del botón */
+            color: rgba(255, 255, 255, 0);
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+            font-family: Arial, sans-serif;
+            transform: translate(-50%, -50%);
+        }
+        .button:hover {
+            background-color: #cc000000; /* Color cuando el mouse está sobre el botón */
+        }
+        .button1 {
+            top: 89%; /* Ajusta este valor según la ubicación del botón "Confirmo Asistencia" */
+            left: 50%; /* Ajusta este valor según la ubicación del botón "Confirmo Asistencia" */
+        }
+        .button2 {
+            top: 65%; /* Ajusta este valor según la ubicación del botón "Ver Ubicación" */
+            left: 50%; /* Ajusta este valor según la ubicación del botón "Ver Ubicación" */
+        }
+        .button3 {
+            top: 75%; /* Ajusta este valor según la ubicación del botón "Ver Ubicación de Iglesia" */
+            left: 50%; /* Ajusta este valor según la ubicación del botón "Ver Ubicación de Iglesia" */
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation">
+        <img src="images/invitacion_Mesa-de-trabajo-1_Mesa de trabajo 1.jpg" alt="Invitación">
+        <a href="https://wa.link/jrbjfl" class="button button1">Confirmo Asistencia</a>
+        <a href="https://www.google.com.mx/maps/place/Parroquia+Nuestra+Se%C3%B1ora+del+Rosario/@27.5131856,-109.9484593,18z/data=!4m14!1m7!3m6!1s0x86c815876f81c6dd:0x2fb7cbaad6adb9dd!2sIglesia+Nuestra+Se%C3%B1ora+del+Perpetuo+Socorro!8m2!3d27.513609!4d-109.948926!16s%2Fg%2F11b7q9dwl0!3m5!1s0x86c81587042dd6c9:0x46f8439faa31e497!8m2!3d27.5131051!4d-109.9466825!16s%2Fg%2F1hc6z1jc5?entry=ttu" class="button button2">Ver Ubicación</a>
+        <a href="https://www.google.com.mx/maps/place/El+Pedregal+Jardin+de+Eventos/@27.5178652,-109.955054,17z/data=!3m1!4b1!4m6!3m5!1s0x86c83f295fcee927:0x7f4a8f524601c03c!8m2!3d27.5178605!4d-109.9524791!16s%2Fg%2F11h_g0c7zn?entry=ttu" class="button button3">Ver Ubicación de Iglesia</a>
+    </div>
+</body>
+</html>
